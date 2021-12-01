@@ -437,31 +437,46 @@
         </button>
         <p class="modal-title">Оставьте свои данные, мы вам перезвоним</p>
         <form action="#" class="modal-form"></form>
-        <label for="user-name" class="modal-input-text">Имя</label>
-        <input
-          type="text"
-          minlength="2"
-          name="user-name"
-          class="modal-input"
-          required
-          id="user-name"
-        />
-        <label for="user-tel" class="modal-input-text">Телефон</label>
-        <input
-          type="text"
-          name="user-tel"
-          class="modal-input"
-          required
-          placeholder="+38 (096) 11 111 11"
-          id="user-tel"
-        />
-        <label for="user-email" class="modal-input-text">Почта</label>
-        <input
-          type="text"
-          name="user-email"
-          class="modal-input"
-          id="user-tel"
-        />
+        <div class="modal-form-field">
+          <label for="user-name" class="modal-input-text">Имя</label>
+          <input
+            type="text"
+            minlength="2"
+            name="user-name"
+            class="modal-input"
+            required
+            id="user-name"
+          />
+        </div>
+        <div class="modal-form-field">
+          <label for="user-tel" class="modal-input-text">Телефон</label>
+          <input
+            type="text"
+            name="user-tel"
+            class="modal-input"
+            required
+            placeholder="+38 (096) 11 111 11"
+            id="user-tel"
+          />
+        </div>
+        <div class="modal-form-field">
+          <label for="user-email" class="modal-input-text">Почта</label>
+          <input
+            type="text"
+            name="user-email"
+            class="modal-input"
+            id="user-email"
+          />
+        </div>
+        <div class="modal-form-field">
+          <label for="user-text" class="modal-input-text">Комментарий</label>
+          <textarea
+            name="user-text"
+            id="user-text"
+            class="modal-user-text"
+            placeholder="Введите текст"
+          ></textarea>
+        </div>
         <button type="submit" class="button submit">Отправить</button>
       </div>
     </div>
