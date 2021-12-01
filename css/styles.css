@@ -642,6 +642,7 @@ img {
 }
 .modal {
   position: absolute;
+  padding: 40px;
   min-width: 528px;
   min-height: 581px;
   top: 50%;
@@ -664,7 +665,28 @@ img {
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
 }
+.modal-title {
+  display: block;
+  width: 448px;
+  height: 23px;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.15;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+}
+.modal-form {
+}
+.modal-input {
+  width: 100%;
+  height: 40px;
+  margin-bottom: 28px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
 
+  outline: none;
+}
 /* portfolio page */
 .portfolio {
   background-color: var(--first-section-color);
