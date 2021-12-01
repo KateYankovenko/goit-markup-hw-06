@@ -437,22 +437,32 @@
         </button>
         <p class="modal-title">Оставьте свои данные, мы вам перезвоним</p>
         <form action="#" class="modal-form"></form>
+        <label for="user-name" class="modal-input-text">Имя</label>
         <input
           type="text"
           minlength="2"
           name="user-name"
           class="modal-input"
           required
+          id="user-name"
         />
+        <label for="user-tel" class="modal-input-text">Телефон</label>
         <input
           type="text"
           name="user-tel"
           class="modal-input"
           required
-          pattern="[\+]\d{2}\s[\(]\d{3}[\)]\s\d{3}[\-]\d{2}[\-]\d{2}"
+          placeholder="+38 (096) 11 111 11"
+          id="user-tel"
         />
-        <input type="text" name="user-email" class="modal-input" />
-        <button type="submit">Отправить</button>
+        <label for="user-email" class="modal-input-text">Почта</label>
+        <input
+          type="text"
+          name="user-email"
+          class="modal-input"
+          id="user-tel"
+        />
+        <button type="submit" class="button submit">Отправить</button>
       </div>
     </div>
     <script src="./js/modal.js"></script>
