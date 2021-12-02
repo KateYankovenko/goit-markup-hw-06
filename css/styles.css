@@ -706,10 +706,17 @@ img {
   border-radius: 4px;
   resize: none;
 }
-/* .submit {
-  margin-bottom: 40px;
-} */
-/* portfolio page */
+.modal-checkbox {
+  padding: 25px 8.38px 124px 52px;
+  background-color: var(--main-text-color);
+}
+.checkbox-text {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
+}
+
 .portfolio {
   background-color: var(--first-section-color);
 }

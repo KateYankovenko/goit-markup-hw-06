@@ -455,7 +455,6 @@
             name="user-tel"
             class="modal-input"
             required
-            placeholder="+38 (096) 11 111 11"
             id="user-tel"
           />
         </div>
@@ -477,7 +476,18 @@
             placeholder="Введите текст"
           ></textarea>
         </div>
-        <input type="checkbox" name="contract" value="conditions" />
+
+        <input
+          type="checkbox"
+          name="contract"
+          class="modal-checkbox"
+          value="conditions"
+          id="checkbox-text"
+        />
+        <label for="checkbox-text" class="ckeckbox-text"
+          >Соглашаюсь с рассылкой и принимаю
+          <a href="#">Условия договора</a></label
+        >
         <button type="submit" class="button submit">Отправить</button>
       </div>
     </div>
