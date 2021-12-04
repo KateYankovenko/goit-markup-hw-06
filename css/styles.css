@@ -599,6 +599,7 @@ img {
   width: 206px;
   height: 80px;
   margin-left: 70px;
+  margin-right: 93px;
 }
 .footer-social-title {
   font-weight: 700;
@@ -628,6 +629,7 @@ img {
   align-items: center;
   justify-content: space-between;
 }
+
 /* modal vindow */
 .backdrop {
   position: fixed;
@@ -782,20 +784,11 @@ img {
   display: block;
   margin: auto;
 }
-.icon-letter {
-  margin-left: 10px;
-}
-.subscribe {
-  display: flex;
-  margin-left: 93px;
-  padding: 0;
-}
-.subscription .submit {
+
+/*Footer subscribe form*/
+.subscription {
   display: flex;
   align-items: center;
-  margin: 0;
-  /* width: 570px;
-  height: 86px; */
 }
 .subform-text {
   display: block;
@@ -814,18 +807,16 @@ img {
   border: 1px solid rgba(255, 255, 255, 0.3);
   color: rgba(255, 255, 255, 0.3);
 }
-
-/* .footer-submit {
-  display: flex;
-  margin: 0;
-  padding: 0;
-  padding: auto;
+.icon-letter {
+  margin-left: 10px;
+}
+.footer-submit-button {
+  display: inline-flex;
   align-items: center;
-  min-width: 200px;
-} */
-
-/* .subscribe-button {
+}
+/* .subscribe {
   display: flex;
+  margin-left: 93px; 
 } */
 
 /* Portfolio */
