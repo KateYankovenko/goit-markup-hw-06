@@ -747,11 +747,19 @@ img {
   flex-direction: column;
   margin-bottom: 10px;
 }
-.modal-input-text {
-  margin-bottom: 4px;
-  font-size: 12px;
-  line-height: 1.16;
-  color: var(--secondary-text-color);
+.modal-input-wrap {
+  position: relative;
+  width: 100%;
+}
+.form-icon {
+  position: absolute;
+  display: block;
+  top: 50%;
+  left: 12px;
+  transform: translateY(-50%);
+  fill: currentColor;
+
+  transition: fill var(--animation-duration) var(--animation-function);
 }
 .modal-input {
   width: 100%;
@@ -761,16 +769,13 @@ img {
   outline: none;
   cursor: pointer;
 
-  transition: transform var(--animation-duration) var(--animation-function);
+  transition: border var(--animation-duration) var(--animation-function);
 }
-.form-icon {
-  position: absolute;
-  display: block;
-  top: 20px;
-  left: 12px;
-  transform: translateY(50%);
-
-  transition: transform var(--animation-duration) var(--animation-function);
+.modal-input-text {
+  margin-bottom: 4px;
+  font-size: 12px;
+  line-height: 1.16;
+  color: var(--secondary-text-color);
 }
 .modal-input:focus {
   border: 1px solid var(--accent-color);
@@ -807,10 +812,6 @@ img {
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
 }
-/* .checkbox {
-  appearance: none;
-  position: absolute;
-} */
 .checkbox-rectangle {
   position: relative;
   display: flex;
