@@ -521,26 +521,23 @@
 
           <!--Checkbox-->
           <div class="modal-form-checkbox">
-            <div class="checkbox-rectangle">
-              <input
-                type="checkbox"
-                name="contract"
-                class="checkbox visually-hidden"
-                value="conditions"
-                id="checkbox-text"
-              />
-              <span class="checkbox-icon">
-                <svg class="ok-icon" width="16" height="15">
+            <input
+              type="checkbox"
+              name="policy"
+              id="modal-check"
+              class="modal-check visually-hidden"
+            />
+            <label for="modal-check" class="modal-input-text check-text"
+              ><span>
+                <svg class="icon-checkbox" width="16" height="15">
                   <use href="./images/icons.svg#icon-ok"></use>
                 </svg>
               </span>
-            </div>
-
-            <label for="checkbox-text" class="modal-ckeckbox-text"
-              >Соглашаюсь с рассылкой и принимаю
+              Соглашаюсь с рассылкой и принимаю
               <a href="#" class="modal-link">Условия договора</a></label
             >
           </div>
+
           <button type="submit" class="button submit-button">Отправить</button>
         </form>
       </div>
