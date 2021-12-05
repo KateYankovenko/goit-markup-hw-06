@@ -428,7 +428,7 @@
         <!--Footer subscribe form-->
 
         <div class="subscribe">
-          <form action class="subscribtion">
+          <form action="#" class="subscribtion">
             <label for="e-mail" class="section-title subform-text"
               >Подпишитесь на рассылку</label
             >
@@ -513,15 +513,24 @@
             ></textarea>
           </div>
 
+          <!--Checkbox-->
           <div class="modal-form-checkbox">
-            <input
-              type="checkbox"
-              name="contract"
-              class="modal-checkbox"
-              value="conditions"
-              id="checkbox-text"
-            />
-            <span class="checkbox-icon"></span>
+            <div class="checkbox-rectangle">
+              <input
+                type="checkbox"
+                name="contract"
+                class="checkbox visually-hidden"
+                value="conditions"
+                id="checkbox-text"
+              />
+
+              <span class="checkbox-icon">
+                <svg class="ok-icon" width="16" height="15">
+                  <use href="./images/icons.svg#icon-ok"></use>
+                </svg>
+              </span>
+            </div>
+
             <label for="checkbox-text" class="modal-ckeckbox-text"
               >Соглашаюсь с рассылкой и принимаю
               <a href="#" class="modal-link">Условия договора</a></label
@@ -534,3 +543,9 @@
     <script src="./js/modal.js"></script>
   </body>
 </html>
+
+<!--Modal 
+  <svg class="ok-icon" width="11" height="8">
+  <use href="./images/icons.svg#ok-icon"></use>
+</svg>
+  vindow-->
