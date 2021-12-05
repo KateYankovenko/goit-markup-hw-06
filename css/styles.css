@@ -839,19 +839,15 @@ img {
 }
 .checkbox:checked + .checkbox-icon .ok-icon {
   background-color: var(--accent-color);
-  border: none;
   opacity: 1;
 }
-/* .checkbox-icon:checked + .ok-icon {
-  background-color: var(--accent-color);
-} */
 /* .checkbox:checked + .modal-checkbox-text .checkbox-icon {
   background-color: var(--accent-color);
   border: none;
-}
-.checkbox:checked + .modal-checkbox-text .ok-icon {
-  fill: var(--first-section-color);
 } */
+.checkbox:checked + .modal-form-checkbox .ok-icon {
+  fill: var(--first-section-color);
+}
 .modal-checkbox-text {
   display: flex;
   align-items: center;
