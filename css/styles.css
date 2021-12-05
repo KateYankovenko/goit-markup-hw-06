@@ -599,7 +599,6 @@ img {
   width: 206px;
   height: 80px;
   margin-left: 70px;
-  margin-right: 93px;
 }
 .footer-social-title {
   font-weight: 700;
@@ -630,8 +629,15 @@ img {
   justify-content: space-between;
 }
 /*Footer subscribe form*/
+.subscribe {
+  display: flex;
+  align-items: flex-end;
+  margin-left: 93px;
+  margin-right: 0;
+}
 .subscription {
   display: flex;
+  justify-content: space-between;
   align-items: center;
 }
 .subform-text {
@@ -651,6 +657,10 @@ img {
   background-color: transparent;
   border: 1px solid rgba(255, 255, 255, 0.3);
   color: rgba(255, 255, 255, 0.3);
+}
+.sign-button {
+  display: flex;
+  align-items: flex-end;
 }
 .icon-letter {
   margin-left: 10px;
