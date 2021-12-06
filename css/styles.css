@@ -734,6 +734,8 @@ img {
   display: block;
   width: 448px;
   height: 23px;
+  margin-top: 0;
+  margin-bottom: 12px;
   font-size: 20px;
   font-weight: 700;
   line-height: 1.15;
@@ -774,6 +776,7 @@ img {
 .modal-input-text {
   display: flex;
   align-items: center;
+  margin-top: 0;
   margin-bottom: 4px;
   font-size: 12px;
   line-height: 1.16;
@@ -795,6 +798,12 @@ img {
   border-radius: 4px;
   resize: none;
   outline: none;
+
+  font-size: 12px;
+  line-height: 1.16;
+  letter-spacing: 0.01em;
+
+  color: rgba(117, 117, 117, 0.5);
 
   transition: transform var(--animation-duration) var(--animation-function);
 }
